@@ -1,0 +1,102 @@
+.section__user{
+    margin-top: 4rem;
+    
+    width:100%;
+    height: auto;
+    background: rgb(219, 219, 219);
+}
+.section__user .user__left{
+    width: 100%;
+    width: 100%;
+    padding: 1rem 0 0 0;
+    background: #0c4f70;    
+    border: 1px solid rgba(0, 0, 0, 0.514);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user__left .img__user{
+    background: forestgreen;
+    width: 140px;
+    height: 140px;
+    border-radius: 999px;
+    max-height: 150px;
+    max-width: 150px;
+    border: 2px solid white;
+    /* display: flex;
+    flex-direction: column; */
+}
+.user__left .img__user img{
+    width: 100%;
+    height: 100%;
+    border-radius: 999px;
+}
+.user__menu{
+    width: 100%;
+}
+.user__menu ul{
+    padding: 0;
+    margin: 0;
+    /* background: darkcyan; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: tomato; */
+
+}
+.user__menu ul li{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* padding: 0.5rem 1rem; */
+    /* background: tomato; */
+    border-top:1px solid rgb(170, 0, 192);
+    /* margin-top: 1rem; */
+padding: 0.5rem 1rem;
+
+}
+.user__menu ul li a{
+/* background: darkgoldenrod; */
+width: 100%;
+color: white;
+}
+.user__menu ul li:hover{
+    background: white;
+}
+.user__menu ul li:hover a{
+    color: red;
+}
+.user__right{
+    padding-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.user__right--content{
+    margin-top: 2rem;
+    
+}
+.user__right--l{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+@media screen and (max-width: 768px) {
+    .user__right{
+        padding-left: 0;
+    }
+}   
+@media screen and (min-width:1061){
+    
+}
+@media screen and (max-width: 1060px) {
+    
+}
+@media screen and (min-width:991px){
+    
+}
+/* --màn hình table -- */
+@media screen and (max-width: 990px){
+    
+   
+}
